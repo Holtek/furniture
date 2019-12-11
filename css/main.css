@@ -12,6 +12,18 @@ body {
   background: var(--mainWhite);
   font-family: "Mali", cursive;
 }
+/* Button */
+.btn-yellow {
+  background: var(--mainYellow);
+  text-transform: capitalize;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  color: var(--mainBlack);
+}
+.btn-yellow:hover {
+  background: var(--mainBlack);
+  color: var(--mainYellow);
+}
 .text-slanted {
   font-family: "Calligraffitti", cursive;
 }
@@ -49,4 +61,9 @@ body {
   background: var(--mainYellow);
   font-size: 0.1rem;
   border-radius: 50%;
+}
+/* Banner */
+.banner {
+  background: url(../img/pageBcg/bannerBcg.jpeg) center/cover fixed no-repeat;
+  min-height: calc(100vh - 101px);
 }
